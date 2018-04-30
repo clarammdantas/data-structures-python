@@ -4,19 +4,19 @@ class Node(object):
 		self.right = right
 		self.value = value
 
-	def isLeaf(self):
+	def is_leaf(self):
 		return self.left == None and self.right == None
 
-	def setRightChild(self, node):
+	def set_right_child(self, node):
 		self.right = node
 
-	def setLeftChild(self, node):
+	def set_left_child(self, node):
 		self.left = node
 
-	def getRightChild(self):
+	def get_right_child(self):
 		return self.right
 
-	def getLeftChild(self):
+	def get_left_child(self):
 		return self.left
 
 
