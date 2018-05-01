@@ -70,6 +70,7 @@ class BST(object):
 
 		return node_found
 
+
 	def delete_node_one_child(self, node):
 		if node.get_right_child():
 			node.set_value(node.get_right_child().get_value())
